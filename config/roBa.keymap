@@ -6,6 +6,8 @@
 
 #include "jis_keys.h"
 
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 80
+
 &mkp_input_listener { input-processors = <&zip_temp_layer 4 500>; };
 
 &mt {
@@ -81,10 +83,10 @@
 
         default_layer {
             bindings = <
-&kp Q               &kp W         &kp E         &kp R                   &kp T                                                       &kp Y             &kp U  &kp I      &kp O    &kp P
-&mt LEFT_CONTROL A  &kp S         &kp D         &kp F                   &kp G        &mkp MCLK                   &kp JIS_SEMI        &kp H             &kp J  &kp K      &kp L    &mt RIGHT_CONTROL JIS_MINUS
-&mt LSHIFT Z        &kp X         &kp C         &kp V                   &kp B        &kp JIS_EXCL                &kp JIS_QUESTION    &kp N             &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT JIS_SLASH
-&kp LCTRL           &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 LANG2  &lt 2 SPACE  &lt_to_layer_0 3 LANG1      &kp BACKSPACE       &lt 1 ENTER                                  &kp DEL
+&kp Q               &kp W         &kp E         &kp R                   &kp T                                                   &kp Y        &kp U  &kp I      &kp O    &kp P
+&mt LEFT_CONTROL A  &kp S         &kp D         &kp F                   &kp G        &mkp MCLK                   &kp SEMICOLON  &kp H        &kp J  &kp K      &kp L    &mt RIGHT_CONTROL MINUS
+&mt LSHIFT Z        &kp X         &kp C         &kp V                   &kp B        &kp EXCLAMATION             &kp QUESTION   &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
+&kp LCTRL           &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 LANG2  &lt 2 SPACE  &lt_to_layer_0 3 LANG1      &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -92,19 +94,19 @@
 
         NUMBER {
             bindings = <
-&kp JIS_PLUS   &kp JIS_MINUS  &kp JIS_ASTERISK  &kp JIS_SLASH  &kp JIS_PERCENT                            &kp JIS_CARET  &trans  &trans   &trans   &trans
-&kp NUMBER_1   &kp NUMBER_2   &kp NUMBER_3      &kp NUMBER_4   &kp N5           &trans      &kp JIS_EQUAL  &kp NUMBER_6   &kp N7  &kp N8   &kp N9   &kp N0
-&kp LG(F1)     &kp F2         &kp F3            &kp F4         &kp F5           &kp F6      &kp F7         &kp F8         &kp F9  &kp F10  &kp F11  &kp F12
-&trans         &trans         &trans            &trans         &trans           &trans      &trans         &trans                                    &trans
+&kp PLUS      &kp MINUS     &kp ASTERISK  &kp SLASH     &kp PERCENT                         &kp CARET     &trans  &trans   &trans   &trans
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5       &trans      &kp EQUAL  &kp NUMBER_6  &kp N7  &kp N8   &kp N9   &kp N0
+&kp LG(F1)    &kp F2        &kp F3        &kp F4        &kp F5       &kp F6      &kp F7     &kp F8        &kp F9  &kp F10  &kp F11  &kp F12
+&trans        &trans        &trans        &trans        &trans       &trans      &trans     &trans                                  &trans
             >;
         };
 
         SYMBOL {
             bindings = <
-&trans        &trans          &trans             &kp JIS_AT     &trans                                         &kp JIS_SEMI  &kp JIS_COLON  &kp JIS_LBKT  &kp JIS_RBKT  &trans
-&kp JIS_HASH  &kp JIS_DOLLAR  &kp JIS_AMPERSAND  &kp JIS_TILDE  &kp JIS_BACKSLASH  &trans      &kp JIS_GRAVE  &kp JIS_DQT   &kp JIS_SQT    &kp JIS_LPAR  &kp JIS_RPAR  &trans
-&trans        &trans          &trans             &trans         &trans             &trans      &trans         &kp JIS_LT    &kp JIS_GT     &kp JIS_LBRC  &kp JIS_RBRC  &trans
-&trans        &trans          &trans             &trans         &trans             &trans      &trans         &trans                                                      &trans
+&trans    &trans      &trans         &kp AT_SIGN  &trans                                       &kp SEMICOLON      &kp COLON         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans
+&kp HASH  &kp DOLLAR  &kp AMPERSAND  &kp TILDE    &kp NON_US_BACKSLASH  &trans      &kp GRAVE  &kp DOUBLE_QUOTES  &kp SQT           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&trans    &trans      &trans         &trans       &trans                &trans      &trans     &kp LESS_THAN      &kp GREATER_THAN  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans
+&trans    &trans      &trans         &trans       &trans                &trans      &trans     &trans                                                                            &trans
             >;
         };
 
