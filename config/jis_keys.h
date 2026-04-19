@@ -1,5 +1,5 @@
 #pragma once
-#include <dt-bindings/zmk/keys.h>
+// #include <dt-bindings/zmk/keys.h>
 
 // ────────────────────────────────────────
 // OSがJIS配列設定のときにUS配列キーボードから
