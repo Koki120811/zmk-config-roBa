@@ -12,7 +12,9 @@
 
 &mt {
     flavor = "balanced";
-    quick-tap-ms = <0>;
+    quick-tap-ms = <175>;
+    tapping-term-ms = <400>;
+    require-prior-idle-ms = <200>;
 };
 
 &trackball {
