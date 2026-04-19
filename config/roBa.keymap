@@ -111,19 +111,19 @@
 
         SYMBOL {
             bindings = <
-&trans    &trans      &trans         &kp AT_SIGN  &trans                                    &kp SEMICOLON      &kp COLON         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans
-&kp HASH  &kp DOLLAR  &kp AMPERSAND  &kp TILDE    &kp NON_US_BACKSLASH  &trans      &trans  &kp DOUBLE_QUOTES  &kp SQT           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&trans    &trans      &trans         &trans       &trans                &trans      &trans  &kp LESS_THAN      &kp GREATER_THAN  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans
-&trans    &trans      &trans         &trans       &trans                &trans      &trans  &trans                                                                            &trans
+&trans    &trans      &trans         &kp AT_SIGN  &trans                                       &kp SEMICOLON      &kp COLON         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans
+&kp HASH  &kp DOLLAR  &kp AMPERSAND  &kp TILDE    &kp NON_US_BACKSLASH  &trans      &kp GRAVE  &kp DOUBLE_QUOTES  &kp SQT           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&trans    &trans      &trans         &trans       &trans                &trans      &trans     &kp LESS_THAN      &kp GREATER_THAN  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans
+&trans    &trans      &trans         &trans       &trans                &trans      &trans     &trans                                                                            &trans
             >;
         };
 
         ARROW {
             bindings = <
-&kp TAB           &kp LC(LS(TAB))         &trans  &kp LC(TAB)              &trans                      &trans          &kp HOME        &kp END       &trans           &trans
-&kp LEFT_CONTROL  &trans                  &trans  &trans                   &trans  &trans      &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
-&kp LEFT_SHIFT    &kp LG(LS(LEFT_ARROW))  &trans  &kp LG(LS(RIGHT_ARROW))  &trans  &trans      &trans  &trans          &trans          &trans        &trans           &trans
-&trans            &trans                  &trans  &trans                   &trans  &trans      &trans  &trans                                                         &trans
+&kp TAB           &trans  &trans  &trans  &trans                      &trans          &kp HOME        &kp END       &trans           &trans
+&kp LEFT_CONTROL  &trans  &trans  &trans  &trans  &trans      &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
+&kp LEFT_SHIFT    &trans  &trans  &trans  &trans  &trans      &trans  &trans          &trans          &trans        &trans           &trans
+&trans            &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                         &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
