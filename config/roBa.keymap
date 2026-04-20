@@ -94,19 +94,19 @@
 
         NUMBER {
             bindings = <
-&kp JIS_PLUS   &kp JIS_MINUS  &kp JIS_ASTERISK  &kp JIS_SLASH  &kp JIS_PERCENT                            &kp JIS_CARET  &trans  &trans   &trans   &trans
-&kp NUMBER_1   &kp NUMBER_2   &kp NUMBER_3      &kp NUMBER_4   &kp N5           &trans      &kp JIS_EQUAL  &kp NUMBER_6   &kp N7  &kp N8   &kp N9   &kp N0
-&kp LG(F1)     &kp F2         &kp F3            &kp F4         &kp F5           &kp F6      &kp F7         &kp F8         &kp F9  &kp F10  &kp F11  &kp F12
-&trans         &trans         &trans            &trans         &trans           &trans      &trans         &trans                                    &trans
+&kp JIS_SQT    &kp NUMBER_1   &kp NUMBER_2   &kp NUMBER_3   &kp JIS_LPAR                            &kp JIS_RPAR   &trans             &trans          &trans            &trans
+&kp JIS_DQT    &kp NUMBER_4   &kp NUMBER_5   &kp NUMBER_6   &kp JIS_LBRC     &trans      &trans     &kp JIS_RBRC   &kp JIS_PLUS       &kp JIS_MINUS   &kp JIS_EQUAL     &kp N0
+&kp JIS_GRAVE  &kp NUMBER_7   &kp NUMBER_8   &kp NUMBER_9   &kp JIS_LBKT     &trans      &trans     &kp JIS_RBKT   &kp JIS_ASTERISK   &kp JIS_SLASH   &kp JIS_PERCENT   &kp F12
+&trans         &kp NUMBER_0   &kp DOT        &trans         &trans           &trans      &trans     &trans                                                              &trans
             >;
         };
 
         SYMBOL {
             bindings = <
-&trans        &trans          &trans             &kp JIS_AT     &trans                                         &kp JIS_SEMI  &kp JIS_COLON  &kp JIS_LBKT  &kp JIS_RBKT  &trans
-&kp JIS_HASH  &kp JIS_DOLLAR  &kp JIS_AMPERSAND  &kp JIS_TILDE  &kp JIS_BACKSLASH  &trans      &kp JIS_GRAVE  &kp JIS_DQT   &kp JIS_SQT    &kp JIS_LPAR  &kp JIS_RPAR  &trans
-&trans        &trans          &trans             &trans         &trans             &trans      &trans         &kp JIS_LT    &kp JIS_GT     &kp JIS_LBRC  &kp JIS_RBRC  &trans
-&trans        &trans          &trans             &trans         &trans             &trans      &trans         &trans                                                      &trans
+&trans        &trans          &trans          &trans    &kp JIS_TILDE                                &kp JIS_YEN   &kp JIS_UNDERSCORE  &kp JIS_ANPERSAND  &trans  &trans
+&kp JIS_AT    &kp JIS_HASH    &kp JIS_DOLLAR  &trans    &trans              &trans      &trans       &kp JIS_HASH  &trans              &trans             &trans  &trans
+&trans        &trans          &kp JIS_COLON   &trans    &kp JIS_BACKSLASH   &trans      &trans       &trans        &trans              &trans             &trans  &trans
+&trans        &trans          &trans          &trans    &trans              &trans      &trans       &trans                                                       &trans
             >;
         };
 
