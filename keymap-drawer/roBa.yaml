@@ -28,8 +28,8 @@ layers:
   - C
   - V
   - B
-  - '!'
-  - '?'
+  - Sft+1
+  - Sft+/
   - N
   - M
   - ','
@@ -45,40 +45,40 @@ layers:
   - {t: ENTER, h: NUMBER}
   - DEL
   NUMBER:
-  - "'"
+  - Sft+7
   - '1'
   - '2'
   - '3'
-  - '('
-  - ')'
+  - Sft+8
+  - Sft+9
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ;
-  - '"'
+  - Sft+2
   - '4'
   - '5'
   - '6'
-  - '{'
+  - Sft+]
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '}'
-  - '+'
+  - Sft+#
+  - Sft+;
   - '-'
-  - '='
-  - ':'
-  - '`'j
+  - Sft+-
+  - ''''
+  - Sft+[
   - '7'
   - '8'
   - '9'
-  - '['
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - ']'
-  - '*'
-  - '/'
-  - '%'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '#'
+  - Sft+'
+  - /
+  - Sft+5
+  - Sft+3
   - {t: ▽, type: trans}
   - '0'
   - .
@@ -89,33 +89,33 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   SYMBOL:
-  - '?'
+  - Sft+/
+  - {t: ▽, type: trans}
+  - Sft+-
+  - {t: ▽, type: trans}
+  - Sft+=
+  - INT3
+  - Sft+INT1
+  - Sft+6
+  - {t: ▽, type: trans}
+  - Sft+INT3
+  - '['
+  - Sft+3
+  - Sft+4
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '='
   - {t: ▽, type: trans}
-  - '~'
-  - '\'
-  - '_'
-  - '&'
-  - {t: ▽, type: trans}
-  - '|'
-  - '@'
-  - '#'
-  - '$'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '^'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - ''''
   - {t: ▽, type: trans}
-  - ':'
-  - {t: ▽, type: trans}
-  - '\'
+  - INT1
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
