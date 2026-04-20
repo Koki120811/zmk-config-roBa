@@ -1,4 +1,4 @@
-zmk_keycode_map:
+zmk_additional_codes:
   JIS_MINUS: "-"
   JIS_EQUAL: "="
   JIS_CARET: "^"
