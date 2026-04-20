@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - P
-  - {t: A, h: LEFT CONTROL}
+  - {t: A, h: LCTRL}
   - S
   - D
   - F
@@ -22,63 +22,63 @@ layers:
   - J
   - K
   - L
-  - {t: '-', h: RIGHT CONTROL}
+  - {t: '-', h: RCTRL}
   - {t: Z, h: LSHIFT}
   - X
   - C
   - V
   - B
-  - Sft+1
-  - Sft+/
+  - '!'
+  - '?'
   - N
   - M
   - ','
   - .
-  - {t: /, h: RIGHT SHIFT}
+  - {t: /, h: RSHIFT}
   - LCTRL
-  - LEFT WIN
-  - LEFT ALT
-  - {t: '&to_layer_0 LANG2', h: '6'}
+  - WIN
+  - ALT
+  - {t: LANG2, h: '6'}
   - {t: SPACE, h: SYMBOL}
-  - {t: '&to_layer_0 LANG1', h: ARROW}
-  - BACKSPACE
+  - {t: LANG1, h: ARROW}
+  - BSPC
   - {t: ENTER, h: NUMBER}
   - DEL
   NUMBER:
-  - Sft+7
+  - "'"
   - '1'
   - '2'
   - '3'
-  - Sft+8
-  - Sft+9
+  - (
+  - )
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ;
-  - Sft+2
+  - '"'
   - '4'
   - '5'
   - '6'
-  - Sft+]
+  - '{'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Sft+#
-  - Sft+;
+  - '}'
+  - +
   - '-'
-  - Sft+-
-  - ''''
-  - Sft+[
+  - '='
+  - ':'
+  - '`'
   - '7'
   - '8'
   - '9'
+  - '['
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ']'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '#'
-  - Sft+'
+  - '*'
   - /
-  - Sft+5
-  - Sft+3
+  - '%'
+  - '#'
   - {t: ▽, type: trans}
   - '0'
   - .
@@ -89,38 +89,38 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   SYMBOL:
-  - Sft+/
-  - {t: ▽, type: trans}
-  - Sft+-
-  - {t: ▽, type: trans}
-  - Sft+=
-  - INT3
-  - Sft+INT1
-  - Sft+6
-  - {t: ▽, type: trans}
-  - Sft+INT3
-  - '['
-  - Sft+3
-  - Sft+4
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '?'
   - {t: ▽, type: trans}
   - '='
   - {t: ▽, type: trans}
+  - '~'
+  - ¥
+  - _
+  - '&'
+  - {t: ▽, type: trans}
+  - '|'
+  - '@'
+  - '#'
+  - $
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ^
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''''
   - {t: ▽, type: trans}
-  - INT1
+  - ':'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - <
+  - '>'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -150,11 +150,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT ARROW
-  - DOWN ARROW
-  - UP ARROW
-  - RIGHT ARROW
-  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -176,50 +175,51 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   MOUSE:
-  - '&to_layer_0 Q'
-  - '&to_layer_0 W'
-  - '&to_layer_0 E'
-  - '&to_layer_0 R'
-  - '&to_layer_0 T'
-  - '&to_layer_0 Y'
-  - '&to_layer_0 U'
-  - '&to_layer_0 I'
-  - '&to_layer_0 O'
-  - '&to_layer_0 P'
-  - '&to_layer_0 A'
-  - '&to_layer_0 S'
-  - '&to_layer_0 D'
-  - '&to_layer_0 F'
-  - '&to_layer_0 G'
-  - {t: default, h: toggle}
-  - '&to_layer_0 SEMI'
-  - '&to_layer_0 H'
-  - '&mkp MB1'
-  - '&mkp MB3'
-  - '&mkp MB2'
-  - '&to_layer_0 MINUS'
-  - '&to_layer_0 Z'
-  - '&to_layer_0 X'
-  - '&to_layer_0 C'
-  - '&to_layer_0 V'
-  - '&to_layer_0 B'
-  - '&to_layer_0 LS(N1)'
-  - '&to_layer_0 LS(SLASH)'
-  - '&to_layer_0 N'
-  - '&to_layer_0 M'
-  - '&to_layer_0 COMMA'
-  - '&to_layer_0 DOT'
-  - '&to_layer_0 SLASH'
-  - {t: default, h: toggle}
-  - {t: default, h: toggle}
-  - {t: default, h: toggle}
-  - '&to_layer_0 LANG2'
-  - '&to_layer_0 SPACE'
-  - '&to_layer_0 LANG1'
-  - '&to_layer_0 BACKSPACE'
-  - '&to_layer_0 ENTER'
-  - '&to_layer_0 DEL'
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - A
+  - S
+  - D
+  - F
+  - G
+  - {t: ▽, type: trans}
+  - ;
+  - H
+  - MB1
+  - MB3
+  - MB2
+  - '-'
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - '!'
+  - '?'
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LANG2
+  - SPACE
+  - LANG1
+  - BSPC
+  - ENTER
+  - DEL
   NONE:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -293,16 +293,15 @@ layers:
   - '3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&bootloader'
+  - BOOT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BT CLR
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
