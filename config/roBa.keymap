@@ -94,28 +94,28 @@
 
         NUMBER {
             bindings = <
-&kp JIS_SQT    &kp NUMBER_1   &kp NUMBER_2   &kp NUMBER_3   &kp JIS_LPAR                            &kp JIS_RPAR   &trans             &trans          &trans            &trans
-&kp JIS_DQT    &kp NUMBER_4   &kp NUMBER_5   &kp NUMBER_6   &kp JIS_LBRC     &trans      &trans     &kp JIS_RBRC   &kp JIS_PLUS       &kp JIS_MINUS   &kp JIS_EQUAL     &kp N0
-&kp JIS_GRAVE  &kp NUMBER_7   &kp NUMBER_8   &kp NUMBER_9   &kp JIS_LBKT     &trans      &trans     &kp JIS_RBKT   &kp JIS_ASTERISK   &kp JIS_SLASH   &kp JIS_PERCENT   &kp F12
+&kp JIS_SQT    &kp NUMBER_1   &kp NUMBER_2   &kp NUMBER_3   &kp JIS_LPAR                            &kp JIS_RPAR   &trans             &trans          &trans            &kp JIS_SEMI
+&kp JIS_DQT    &kp NUMBER_4   &kp NUMBER_5   &kp NUMBER_6   &kp JIS_LBRC     &trans      &trans     &kp JIS_RBRC   &kp JIS_PLUS       &kp JIS_MINUS   &kp JIS_EQUAL     &kp JIS_COLON
+&kp JIS_GRAVE  &kp NUMBER_7   &kp NUMBER_8   &kp NUMBER_9   &kp JIS_LBKT     &trans      &trans     &kp JIS_RBKT   &kp JIS_ASTERISK   &kp JIS_SLASH   &kp JIS_PERCENT   &kp JIS_HASH
 &trans         &kp NUMBER_0   &kp DOT        &trans         &trans           &trans      &trans     &trans                                                              &trans
             >;
         };
 
         SYMBOL {
             bindings = <
-&trans        &trans          &trans          &trans    &kp JIS_TILDE                                &kp JIS_YEN   &kp JIS_UNDERSCORE  &kp JIS_AMPERSAND  &trans  &trans
-&kp JIS_AT    &kp JIS_HASH    &kp JIS_DOLLAR  &trans    &trans              &trans      &trans       &kp JIS_HASH  &trans              &trans             &trans  &trans
-&trans        &trans          &kp JIS_COLON   &trans    &kp JIS_BACKSLASH   &trans      &trans       &trans        &trans              &trans             &trans  &trans
-&trans        &trans          &trans          &trans    &trans              &trans      &trans       &trans                                                       &trans
+&kp JIS_QUESTION  &trans          &kp JIS_EQUAL   &trans    &kp JIS_TILDE                                &kp JIS_YEN    &kp JIS_UNDERSCORE  &kp JIS_AMPERSAND  &trans  &kp JIS_PIPE
+&kp JIS_AT        &kp JIS_HASH    &kp JIS_DOLLAR  &trans    &trans              &trans      &trans       &kp JIS_CARET  &trans              &trans             &trans  &trans
+&trans            &trans          &kp JIS_COLON   &trans    &kp JIS_BACKSLASH   &trans      &trans       &trans         &trans              &trans             &trans  &trans
+&trans            &trans          &trans          &trans    &trans              &trans      &trans       &trans                                                       &trans
             >;
         };
 
         ARROW {
             bindings = <
-&kp TAB           &trans  &trans  &trans  &trans                      &trans          &kp HOME        &kp END       &trans           &trans
-&kp LEFT_CONTROL  &trans  &trans  &trans  &trans  &trans      &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
-&kp LEFT_SHIFT    &trans  &trans  &trans  &trans  &trans      &trans  &trans          &trans          &trans        &trans           &trans
-&trans            &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                         &trans
+&trans   &trans  &trans  &trans   &trans                      &trans          &kp HOME        &kp END       &trans           &trans
+&trans   &trans  &trans  &kp TAB  &trans  &trans      &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
+&trans   &trans  &trans  &trans   &trans  &trans      &trans  &trans          &trans          &trans        &trans           &trans
+&trans   &trans  &trans  &trans   &trans  &trans      &trans  &trans                                                         &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
