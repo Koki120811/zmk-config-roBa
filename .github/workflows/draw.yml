@@ -22,3 +22,4 @@ jobs:
       config_path: "keymap_drawer.config.yaml" # config file, ignored if not exists
       output_folder: "keymap-drawer"
       destination: "svg"
+      yaml_path: "keymap-drawer"
