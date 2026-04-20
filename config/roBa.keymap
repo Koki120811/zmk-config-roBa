@@ -103,7 +103,7 @@
 
         SYMBOL {
             bindings = <
-&trans        &trans          &trans          &trans    &kp JIS_TILDE                                &kp JIS_YEN   &kp JIS_UNDERSCORE  &kp JIS_ANPERSAND  &trans  &trans
+&trans        &trans          &trans          &trans    &kp JIS_TILDE                                &kp JIS_YEN   &kp JIS_UNDERSCORE  &kp JIS_AMPERSAND  &trans  &trans
 &kp JIS_AT    &kp JIS_HASH    &kp JIS_DOLLAR  &trans    &trans              &trans      &trans       &kp JIS_HASH  &trans              &trans             &trans  &trans
 &trans        &trans          &kp JIS_COLON   &trans    &kp JIS_BACKSLASH   &trans      &trans       &trans        &trans              &trans             &trans  &trans
 &trans        &trans          &trans          &trans    &trans              &trans      &trans       &trans                                                       &trans
