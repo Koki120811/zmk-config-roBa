@@ -103,10 +103,10 @@
 
         SYMBOL {
             bindings = <
-&kp JIS_QUESTION  &trans          &kp JIS_EQUAL   &trans    &kp JIS_TILDE                                &kp JIS_YEN    &kp JIS_UNDERSCORE  &kp JIS_AMPERSAND  &trans  &kp JIS_PIPE
-&kp JIS_AT        &kp JIS_HASH    &kp JIS_DOLLAR  &trans    &trans              &trans      &trans       &kp JIS_CARET  &trans              &trans             &trans  &trans
-&trans            &trans          &kp JIS_COLON   &trans    &kp JIS_BACKSLASH   &trans      &trans       &trans         &trans              &trans             &trans  &trans
-&trans            &trans          &trans          &trans    &trans              &trans      &trans       &trans                                                       &trans
+&kp JIS_QUESTION  &kp JIS_DQT     &kp JIS_EQUAL   &kp JIS_AMPERSAND    &kp JIS_TILDE                                &kp JIS_YEN    &kp JIS_UNDERSCORE  &trans           &trans  &kp JIS_PIPE
+&kp JIS_AT        &kp JIS_SQT     &kp JIS_DOLLAR  &trans               &kp JIS_GRAVE       &trans      &trans       &kp JIS_HASH   &kp JIS_SEMI        &kp JIS_COLON    &trans  &trans
+&trans            &kp JIS_EXCL    &kp JIS_CARET   &trans               &kp JIS_BACKSLASH   &trans      &trans       &trans         &kp JIS_PERCENT     &trans           &trans  &trans
+&trans            &kp trans       &trans          &trans               &trans              &trans      &trans       &trans                                               &trans
             >;
         };
 
