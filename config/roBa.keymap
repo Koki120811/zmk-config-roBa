@@ -107,7 +107,7 @@
 &kp JIS_SQT    &kp NUMBER_1   &kp NUMBER_2   &kp NUMBER_3   &kp JIS_LPAR                            &kp JIS_RPAR   &trans             &trans          &trans            &kp JIS_SEMI
 &kp JIS_DQT    &kp NUMBER_4   &kp NUMBER_5   &kp NUMBER_6   &kp JIS_LBRC     &trans      &trans     &kp JIS_RBRC   &kp JIS_PLUS       &kp JIS_MINUS   &kp JIS_EQUAL     &kp JIS_COLON
 &kp JIS_GRAVE  &kp NUMBER_7   &kp NUMBER_8   &kp NUMBER_9   &kp JIS_LBKT     &trans      &trans     &kp JIS_RBKT   &kp JIS_ASTERISK   &kp JIS_SLASH   &kp JIS_PERCENT   &kp JIS_HASH
-&trans         &kp NUMBER_0   &kp NUMBER_0   &kp NUMBER_0         &trans           &trans      &trans     &trans                                                              &trans
+&trans         &kp NUMBER_0   &kp NUMBER_0   &kp DOT        &trans           &trans      &trans     &trans                                                              &trans
             >;
         };
 
