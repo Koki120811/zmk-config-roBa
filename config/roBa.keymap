@@ -14,7 +14,7 @@
     flavor = "balanced";
     quick-tap-ms = <175>;
     tapping-term-ms = <400>;
-    require-prior-idle-ms = <200>;
+    // require-prior-idle-ms = <200>;
 };
 
 &trackball {
@@ -76,6 +76,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
+            require-prior-idle-ms = <100>;
         };
 
         encoder_msc_down_up: encoder_msc_down_up {
