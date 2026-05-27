@@ -57,6 +57,16 @@
             bindings = <&kp LA(RIGHT)>;
             key-positions = <19 20>;
         };
+
+　　　　move_to_monitor_right {
+   　　　　 bindings = <&kp LG(LS(RIGHT))>;
+    　　　　key-positions = <31 32>;
+　　　　};
+
+　　　　move_to_monitor_left {
+   　　　　 bindings = <&kp LG(LS(LEFT))>;
+    　　　　key-positions = <30 31>;
+　　　　};
     };
 
     macros {
