@@ -50,12 +50,12 @@
 
         back {
             bindings = <&kp LA(LEFT)>;
-            key-positions = <21 22>;
+            key-positions = <18 19>;
         };
 
         forward {
             bindings = <&kp LA(RIGHT)>;
-            key-positions = <22 23>;
+            key-positions = <19 20>;
         };
     };
 
