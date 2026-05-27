@@ -51,10 +51,12 @@
         back {
             bindings = <&kp LA(LEFT)>;
             key-positions = <21 22>;
+        };
 
         forward {
             bindings = <&kp LA(RIGHT)>;
-            keyipositions = <22 23>;
+            key-positions = <22 23>;
+        };
     };
 
     macros {
